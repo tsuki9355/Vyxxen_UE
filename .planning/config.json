@@ -1,0 +1,113 @@
+{
+  "runtime": "codex",
+  "model_overrides": {
+    "gsd-code-fixer": "gpt-6-luna",
+    "gsd-nyquist-auditor": "gpt-6-luna",
+    "gsd-project-researcher": "gpt-6-luna",
+    "gsd-debugger": "gpt-6-luna",
+    "gsd-doc-verifier": "gpt-6-luna",
+    "gsd-doc-synthesizer": "gpt-6-luna",
+    "gsd-ui-auditor": "gpt-6-luna",
+    "gsd-mempalace-curator": "gpt-6-luna",
+    "gsd-ui-researcher": "gpt-6-luna",
+    "gsd-debug-session-manager": "gpt-6-luna",
+    "gsd-eval-auditor": "gpt-6-luna",
+    "gsd-verifier": "gpt-6-luna",
+    "gsd-assumptions-analyzer": "gpt-6-luna",
+    "gsd-framework-selector": "gpt-6-luna",
+    "gsd-plan-checker": "gpt-6-luna",
+    "gsd-security-auditor": "gpt-6-luna",
+    "gsd-research-synthesizer": "gpt-6-luna",
+    "gsd-integration-checker": "gpt-6-luna",
+    "gsd-domain-researcher": "gpt-6-luna",
+    "gsd-dom-verifier": "gpt-6-luna",
+    "gsd-user-profiler": "gpt-6-luna",
+    "gsd-codebase-mapper": "gpt-6-luna",
+    "gsd-intel-updater": "gpt-6-luna",
+    "gsd-roadmapper": "gpt-6-luna",
+    "gsd-planner": "gpt-6-luna",
+    "gsd-doc-classifier": "gpt-6-luna",
+    "gsd-doc-writer": "gpt-6-luna",
+    "gsd-ui-checker": "gpt-6-luna",
+    "gsd-executor": "gpt-6-luna",
+    "gsd-pattern-mapper": "gpt-6-luna",
+    "gsd-advisor-researcher": "gpt-6-luna",
+    "gsd-phase-researcher": "gpt-6-luna",
+    "gsd-eval-planner": "gpt-6-luna",
+    "gsd-code-reviewer": "gpt-6-luna",
+    "gsd-ai-researcher": "gpt-6-luna"
+  },
+  "model_profile_overrides": {
+    "codex": {
+      "sonnet": {
+        "reasoning_effort": "xhigh",
+        "model": "gpt-6-luna"
+      },
+      "opus": {
+        "reasoning_effort": "xhigh",
+        "model": "gpt-6-luna"
+      },
+      "haiku": {
+        "reasoning_effort": "xhigh",
+        "model": "gpt-6-luna"
+      }
+    }
+  },
+  "effort": {
+    "default": "xhigh",
+    "agent_overrides": {
+      "gsd-code-fixer": "xhigh",
+      "gsd-nyquist-auditor": "xhigh",
+      "gsd-project-researcher": "xhigh",
+      "gsd-debugger": "xhigh",
+      "gsd-doc-verifier": "xhigh",
+      "gsd-doc-synthesizer": "xhigh",
+      "gsd-ui-auditor": "xhigh",
+      "gsd-mempalace-curator": "xhigh",
+      "gsd-ui-researcher": "xhigh",
+      "gsd-debug-session-manager": "xhigh",
+      "gsd-eval-auditor": "xhigh",
+      "gsd-verifier": "xhigh",
+      "gsd-assumptions-analyzer": "xhigh",
+      "gsd-framework-selector": "xhigh",
+      "gsd-plan-checker": "xhigh",
+      "gsd-security-auditor": "xhigh",
+      "gsd-research-synthesizer": "xhigh",
+      "gsd-integration-checker": "xhigh",
+      "gsd-domain-researcher": "xhigh",
+      "gsd-dom-verifier": "xhigh",
+      "gsd-user-profiler": "xhigh",
+      "gsd-codebase-mapper": "xhigh",
+      "gsd-intel-updater": "xhigh",
+      "gsd-roadmapper": "xhigh",
+      "gsd-planner": "xhigh",
+      "gsd-doc-classifier": "xhigh",
+      "gsd-doc-writer": "xhigh",
+      "gsd-ui-checker": "xhigh",
+      "gsd-executor": "xhigh",
+      "gsd-pattern-mapper": "xhigh",
+      "gsd-advisor-researcher": "xhigh",
+      "gsd-phase-researcher": "xhigh",
+      "gsd-eval-planner": "xhigh",
+      "gsd-code-reviewer": "xhigh",
+      "gsd-ai-researcher": "xhigh"
+    },
+    "routing_tier_defaults": {
+      "light": "xhigh",
+      "standard": "xhigh",
+      "heavy": "xhigh"
+    }
+  },
+  "mode": "interactive",
+  "granularity": "coarse",
+  "parallelization": true,
+  "commit_docs": true,
+  "workflow": {
+    "plan_check": true,
+    "verifier": true,
+    "research": true
+  },
+  "plan_review": {
+    "source_grounding": true
+  }
+}
